@@ -263,6 +263,11 @@ html, body {
   transition: transform 0.3s ease;
 }
 
+#imagem{
+    width: 250px;
+    height: 350px;
+}
+
 .social-icons img:hover {
   transform: scale(1.1);
 }
