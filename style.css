@@ -313,3 +313,113 @@ html, body {
   font-size: 0.95rem;
   color: #ccc;
 }
+/* 📱 Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1rem;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .menu a {
+    margin: 0.5rem 0;
+  }
+
+  .hero {
+    padding: 5rem 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .about, .projects {
+    padding: 2rem 1rem;
+  }
+
+  .about h2, .projects h2 {
+    font-size: 1.6rem;
+  }
+
+  .about p, .projects p {
+    font-size: 1rem;
+  }
+
+  .project-card img {
+    height: 160px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .skill-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .skill-card p {
+    font-size: 0.9rem;
+  }
+
+  .cta-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #imagem {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .gradient-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+  }
+}
